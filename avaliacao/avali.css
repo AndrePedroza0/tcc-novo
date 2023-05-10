@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(171, 247, 84, 0.13);
+    background-image: url(../images/healthcare-wallpaper-medical-seamless-pattern-vector-8295770-removebg-preview.png);
+}
+
+.logosaude {
+    background-color: #222020;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.logosaude h1{
+    text-align: center;
+    color: #c15959;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.349);
+    font-size: 45px;
+}
+
+.logosaude a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 45%;
+}
+
+.rating-box {
+    position: relative;
+    background: #fff;
+    padding: 25px 50px 35px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.rating-box header {
+    font-size: 25px;
+    color: #c15959;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.rating-box .stars {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.stars i{
+    color: #e6e6e6;
+    font-size: 35px;
+    cursor: pointer;
+    transition: color 0.2;
+}
+
+.stars i.active {
+    color: #ff9c1a;
+
+}
+
+/*footer*/
+
+footer{
+    background-color: #111;
+    height: auto;
+    width: 100vw;
+    font-family: open sans-serif;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-height: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a li{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.features {
+    width: 100%;
+    height: 100%;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+    }
+    
+    .title-wrapper-features {
+    padding: 20px 0px;
+    }
+
+    .Texth {
+        color: #fff;
+    }
+    
+    .feature-card-block {
+    max-width: 1000px;
+    min-width: 300px;
+    height: 600px;
+    background: rgb(49, 49, 49);
+    margin: 0 auto;
+    border-radius: 8px;
+    z-index: 10;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    grid-gap: 30px;
+    }
+    
+    .feature-card-item {
+    max-width: 420px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    }
+    
+    .feature-text-content {
+    max-width: 60%;
+    margin: 5px;
+    }
+    
+    .feature-card-item img {
+    width: 64px;
+    height: 64px;
+    }
